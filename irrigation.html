@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <a href="index.html">Home</a> <h1>Irrigation Subsidy</h1><br>
+ 
+
+
+
+<div class="w3-content w3-section" style="max-width:1350px">
+  <img class="mySlides" src="images/images/4323d196c6420cecde391a517ea601bc.jpg" style="width:100%">
+  <img class="mySlides" src="images/images/water1-1200x600.jpg" style="width:100%">
+</div>
+
+  
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+    
+ <p>Subsidies to the farmers which the government bears on account of providing proper irrigation facilities.
+    Irrigation subsidy is the difference between operating and maintenance cost of irrigation infrastructure in the state and irrigation charges recovered from farmers.
+    This may work through provisions of public goods such as canals, dams which the government constructs and charges low prices or no prices at all for their use from the farmers.
+    It may also be through cheap private irrigation equipment such as pump sets.</p>
+ 
+</body>
+</html>

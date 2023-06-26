@@ -1,0 +1,30 @@
+img {
+    width: 440px;
+    height: 250px;
+    
+    }
+    h1 {
+        text-align: center;
+       }
+       p {
+           font-size: 25px;
+           font-weight: bolder;
+           color: blanchedalmond;
+       }
+    im {
+       
+            
+            margin-left: auto;
+            margin-right: auto;
+            
+          
+       }
+       body{
+           background-image: url('images/5ea2e76e7152d81a141424b2.jpg');
+           background-repeat: no-repeat;
+           background-size: 1380px 670px;
+           
+       }
+       a {
+           color: blanchedalmond;
+       }

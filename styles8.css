@@ -1,0 +1,44 @@
+img {
+    width: 440px;
+    height: 250px;
+    
+    }
+    h1 {
+        text-align: center;
+       }
+       p {
+           font-size: 25px;
+           color: red;
+       }
+    img {
+       
+            
+            margin-left: auto;
+            margin-right: auto;
+            
+          
+       }
+       span{
+           color: black;
+       }
+       @keyframes animate {
+        0%   { left:-10000px; top:0px;}
+      
+        100% { left:0px; top:0px;}
+      }
+      img {
+          animation-name: animate;
+          animation-duration: 4s;
+          position: relative;
+      }
+    p{
+        animation-name: text;
+          animation-duration: 3s;
+          position: relative;
+    }
+    @keyframes text {
+        0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+        40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+        80% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+        100%{left: 0px; top: 0px;}
+      }

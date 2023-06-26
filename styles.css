@@ -1,0 +1,304 @@
+.mdlepnl p{
+font-size:25px;
+color:white;
+text-align: center;
+text-decoration: none;
+
+
+}
+.mdlepnl ul li{
+  background-color: red;
+  border: black;
+  text-decoration: none;
+}
+.rgt ul li{
+  text-decoration: none;
+  color: greenyellow;
+  border:1px solid #000;
+  margin-top: 5px;
+}
+.rgt a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.title2 ul li {
+  background-color: red;
+ 
+  
+}
+.title2 ul li a{
+
+  color: white;
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(images/repeating.jpg);
+  background-repeat: repeat;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 0px auto;
+}
+.header {
+  background-image: url(images/headerbg.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 1200px;
+  margin: 0px auto;
+  background-position: right;
+
+  background-color: pink;
+  height: 155px;
+}
+.header a {
+  position: relative;
+  left: 350px;
+}
+.clear {
+  clear: both;
+}
+.menu {
+  z-index: 999;
+  background-color: blue;
+  width: 1200px;
+  margin: 0px auto;
+  text-decoration: none;
+}
+.menu ul {
+  position: relative;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+  border: 1px solid black;
+  position: relative;
+  background-color: skyblue;
+
+  margin: 0;
+  padding: 0;
+}
+
+.a1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 74.2px 5px 74.2px;
+  line-height: 40px;
+}
+
+.contentcontainer {
+  width: 1200px;
+  height: 750px;
+
+  margin: 0px auto;
+  padding-top: 10px;
+}
+.lftpnl {
+  background-color: pink;
+
+  width: 249px;
+  padding-top: 10px;
+  float: left;
+  background-image: url(images/lft.bmp);
+  background-size: contain;
+  background-repeat: repeat;
+  min-height: 750px;
+  border-bottom: 2px solid black;
+}
+.title1 {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 63px;
+  background-color: chartreuse;
+  background-image: url(images/title1.jpg);
+
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mdlepnl {
+  position: relative;
+
+  width: 950px;
+  height: 500px;
+  float: left;
+}
+.mdl {
+  position: relative;
+  width: 680px;
+  height: 500px;
+  background-color: skyblue;
+  float: left;
+  left: 15px;
+}
+.rgt {
+  position: relative;
+  width: 230px;
+  height: 500px;
+  background-color: pink;
+  float: right;
+}
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: brown;
+}
+.ft1 p {
+  color: white;
+  text-decoration: none;
+}
+.link a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-left: 1px solid white;
+  line-height: 1px;
+}
+.link {
+  position: relative;
+  top: 10px;
+}
+.menu ul li:hover {
+  background-color: greenyellow;
+}
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+
+  position: absolute;
+  z-index: 9999;
+}
+.menu ul ul li {
+  font-weight: bold;
+  float: none;
+  width: 100%;
+  line-height: 50px;
+}
+.menu ul ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.title2 {
+  position: relative;
+  left: 2.88px;
+}
+.title2 ul {
+  color: white;
+  list-style: none;
+  width: 242px;
+  padding-left: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.title2 ul li {
+  margin-bottom: 10px;
+}
+
+#drop,
+#drop a {
+  overflow: hidden;
+  background-color: lightblue;
+  height: 60px;
+  transition: width 1s, height 1s;
+  text-decoration: none;
+  color: black;
+}
+#drop a:hover {
+  text-decoration: underline;
+  background-color: lightgreen;
+  width: 100%;
+}
+#drop.dropdown {
+  height: 0;
+}
+
+.dropbtn {
+  width: 100%;
+  height: 46px;
+  text-decoration: none;
+  box-shadow: none;
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#drop1,
+#drop1 a {
+  overflow: hidden;
+  background-color: lightblue;
+  height: 168px;
+  transition: width 1s, height 1s;
+  text-decoration: none;
+  color: black;
+}
+#drop1.dropdown1 {
+  height: 0;
+}
+#drop1 a:hover {
+  text-decoration: underline;
+  background-color: lightgreen;
+  width: 100%;
+}
+#drop2,
+#drop2 a {
+  overflow: hidden;
+  background-color: lightblue;
+  height: 102px;
+  transition: width 1s, height 1s;
+  text-decoration: none;
+  color: black;
+}
+#drop2.dropdown2 {
+  height: 0;
+}
+#drop2 a:hover {
+  text-decoration: underline;
+  background-color: lightgreen;
+  width: 100%;
+}
+.img {
+
+   position: absolute;
+    
+    top:60px;
+left:60px;
+    width: 680px;
+    height: 488.8px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s ease-in-out ;
+    -moz-animation:spin 4s ease-in-out ;
+    animation: zoom-in-zoom-out 2s ease-out;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+

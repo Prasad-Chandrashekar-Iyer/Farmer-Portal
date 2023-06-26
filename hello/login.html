@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Portal</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="index.html"><img src="images/title.png" alt=""></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="a1" href="index.html">Home</a></li>
+                <li><a class="a1" href="aboutus.html">About Us</a></li>
+                <li><a class="a1" href="#">Programmes & Schemes</a>
+                    <ul>
+                        <li><a href="#">Rashtriya Krishi Vikas Yojana (RKVY)</a></li>
+                        <li>National Food Security Mission (NFSM)</li>
+                        <li>Sub-Mission on Agricultural Mechanization (SMAM)
+                        </li>
+                        <li>NABARD loans in India</li>
+                        <li>Rashtriya Krishi Vikas Yojana (RKVY)</li>
+                    </ul>
+                </li>
+        
+                <li><a class="a1" href="#">Major Crops</a>
+                    <ul>
+                        <li><a class="a" href="#">wheat</a></li>
+                        <li>wheatasddddddddddddd</li>
+                        <li>wheat</li>
+                        <li>wheat</li>
+        
+        
+                    </ul>
+                </li>
+        
+                <li><a class="a1" href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="contentcontainer">
+            <div class="lftpnl">
+                <div class="title1"><br>Subsidy Corner </div>
+                <div class="title2">
+                    <ul>
+            
+                        <li> <button class="dropbtn" onclick="myFunction()">Types of Subsidies </button>
+                            <ul id="drop" class="dropdown">
+                                <li><a href="#">Direct</a></li>
+                                <li><a href="#">InDirect</a></li>
+                            </ul>
+                        </li>
+                        <li> <button class="dropbtn" onclick="myFunction1()">Input Subsidies</button>
+                            <ul id="drop1" class="dropdown1">
+                                <li><a href="https://fert.nic.in/fertilizer-subsidy">Fertilizer Subsidy</a></li>
+                                <li><a href="#">Irrigation Subsidy</a></li>
+                                <li><a href="#">Power Subsidy</a></li>
+                                <li><a href="#">Seed Subsidy</a></li>
+                                <li><a href="#">Credit Subsidy</a></li>
+                            </ul>
+                        </li>
+                        <li> <button class="dropbtn">Price Subsidy</button></li>
+                        <li><button class="dropbtn">Ifrastructural Subsidy</button></li>
+                        <li><button class="dropbtn">Export Subsidy</button></li>
+                        <li><button class="dropbtn" onclick="myFunction2()">WTO and Agricultural Subsidies</button>
+                            <ul id="drop2" class="dropdown2">
+                                <li><a href="">Green Box subsidies</a></li>
+                                <li><a href="">Blue Box subsidies</a></li>
+                                <li><a href="">Amber Box subsidies</a></li>
+                            </ul>
+                        </li>
+                        <li><button class="dropbtn">India's Farm Subsidies</button></li>
+                        <li><button class="dropbtn">Central Government Subsidies</button></li>
+                        <li><button onclick="location.href='//127.0.0.1:5500/aboutus.html'" class="dropbtn">State Government Subsidies</button></li>
+            
+            
+            
+            
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mdlepnl">
+                <div class="mdl">
+                    <div class="mdtl"><h1>Login</h1></div>
+                    <div class="mid">
+                    <form action="login.php" method="POST">
+                        <br>
+                        <input style="margin: 10px 300px; height: 40px; width:180px; font-size: 15px;" type="text" name="username" placeholder="Username">
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <input style="margin: 10px 300px; height: 40px; width:180px; font-size: 15px;" type="password" name="password" placeholder="Password">
+                        <br>
+                        <br>
+                        <br>
+                        <input style="margin: 10px 300px; height: 40px; width:180px; font-size: 15px;" type="submit" name="login" value="Login">
+                        <br>
+                        <p style="margin-left: 300px;"class="link">Don't have an account? <a style="color: black; border: none; text-decoration: underline;" href="registration.html">Register Now</a></p>
+                    </form>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <div class="ft1">
+                <div class="link">
+                    <a href="" style="border-left: none;">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Help</a>
+                    <a href="">Terms and Conditions</a>
+                    <a href="">Accessibility Statement</a>
+                    <a href="">Website Policy</a>
+                    <br>
+                </div>
+                <br>
+                <p>
+                    This website belongs to Department of Agriculture & Cooperation and Farmers Welfare,<br>
+                    Ministry of Agriculture and Farmers Welfare, Government of India<br>
+                    Last Updated : 08 JANUARY, 2021
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("drop").classList.toggle("dropdown");
+        }
+        function myFunction1() {
+            document.getElementById("drop1").classList.toggle("dropdown1");
+        }
+        function myFunction2() {
+                document.getElementById("drop2").classList.toggle("dropdown2");
+            }
+
+
+
+    </script>
+
+</body>
+
+</html>

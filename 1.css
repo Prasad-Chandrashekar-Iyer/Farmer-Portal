@@ -1,0 +1,26 @@
+@keyframes animate {
+    0%   { left:-10000px; top:0px;}
+  
+    100% { left:0px; top:0px;}
+  }
+  .animation{
+      animation-name: animate;
+      animation-duration: 4s;
+      position: relative;
+  }
+  img{
+      height: 200px;
+      width: 400px;
+  }
+  h1{
+      display:block;
+      font-size: 30px;
+      text-align: center;
+  }
+  a{
+      display: block;
+      font-size: 20px;
+  }
+  p{
+      font-size: 20px;
+  }

@@ -1,0 +1,29 @@
+img {
+    width: 440px;
+    height: 250px;
+    
+    }
+    h1 {
+        text-align: center;
+       }
+       p {
+           font-size: 25px;
+           font-weight: bolder;
+           color: black;
+       }
+    im {
+       
+            
+            margin-left: auto;
+            margin-right: auto;
+            
+          
+       }
+       body{
+           background-color: chartreuse;
+       }
+       .w3-content-w3-section{
+           margin: auto;
+
+       }
+       

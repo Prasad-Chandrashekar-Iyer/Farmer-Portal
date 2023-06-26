@@ -1,0 +1,39 @@
+img {
+    width: 440px;
+    height: 250px;
+    animation-name: animate;
+    animation-duration: 4s;
+    position: relative;
+   
+    
+    }
+    h1 {
+        text-align: center;
+       }
+       p {
+           font-size: 25px;
+           color: red;
+           margin-left: 500px;
+           position: relative;
+           top: -700px;
+       }
+    
+     
+       @keyframes animate {
+        0%   { left:0px; top:-100px;}
+      
+        100% { left:0px; top:0px;}
+      }
+     
+      .usha {
+          height: 100%;
+          width: 100%;
+
+      }
+      .usha2 {
+          font-weight: bolder;
+      }
+
+      
+
+    

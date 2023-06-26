@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <a href="index.html">Home</a> <h1>Price Subsidy</h1><br>
+    <p>It is the difference between the price of food-grains at which FCI procures food-grains from farmers, and the price at which PCI sells either to traders or to the PDS.
+        The market price may be so low that the farmers will have to bear losses instead of making profits. In such a case the government may promise to buy the crop from the farmers at a price which is higher than the market price.
+        The difference between the two prices is the per unit subsidy granted to the farmers by the government. The price at which the government buys crops from the farmers is called the procurement price.
+        Such procurement by the government also has a long run impact. It encourages the farmers to grow crops which are regularly procured.</p>
+
+ 
+<div class="w3-content-w3-section" style="max-width:600px">
+    
+ <img class="mySlides" src="images/p4.jpg" alt="" style="width: 100%;">
+ <img class="mySlides" src="images/p2.jpg" alt="" style="width: 100%;">
+ <img class="mySlides" src="images/1p.jpg" alt="" style="width: 100%;">
+ <img class="mySlides" src="images/p5.jpg" alt="" style="width: 100%;">
+  </div>
+  
+    
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+    
+ 
+</body>
+</html>
